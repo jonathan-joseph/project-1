@@ -1,2 +1,8 @@
-print ("hello")
+def sum(n):
+	sum=0
+	x=list (range(0,n+1))
+	for i in range (n+1):
+		sum+= x[i]
+	print (sum)
+sum(100)
 
