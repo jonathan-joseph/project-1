@@ -1,9 +1,9 @@
 
-X= [7,5,2,4,3,1,19]
-for i in range(len(X)-1):
-	for i in range (len(X)-1):
-		if X[i]>X[i+1]:
-			Y=X[i+1]
+X= [7,5,2,4,3,1,19] #the list of numbers being used
+for i in range(len(X)-1): #First for loop that runs through the first time
+	for i in range (len(X)-1): #Second for loop that runs through the second time, and makes sure that numbers are in correct position
+		if X[i]>X[i+1]: #If statements that add an extra box to swicth the numbers into increasing order
+			Y=X[i+1] 
 			X[i+1]=X[i]
 			X[i]=Y
-print (X)
+print (X) #tells the code to run
